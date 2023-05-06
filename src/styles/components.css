@@ -1,0 +1,12 @@
+.input {
+    color-scheme: dark;
+    @apply bg-black text-white outline-none;
+    @apply border border-zinc-700 py-2 px-4;
+    @apply rounded-md focus:border-zinc-400;
+}
+
+.btn {
+    @apply flex items-center gap-2;
+    @apply bg-zinc-700 text-white outline-none;
+    @apply py-2 px-4 rounded-md;
+}
